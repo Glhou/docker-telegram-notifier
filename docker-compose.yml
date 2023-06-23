@@ -1,0 +1,13 @@
+version: "3"
+services:
+  notifier:
+    build: .
+    environment:
+      BOT_TOKEN: $BOT_TOKEN
+      CHAT_ID: $CHAT_ID
+
+networks:
+  default:
+    name: "notifier_network"
+
+

@@ -7,7 +7,7 @@ Description: This python server will listen to http get requests and send a tele
 import requests
 import json
 import time
-import Flask
+from flask import Flask
 
 app = Flask(__name__)
 
