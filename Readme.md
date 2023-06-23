@@ -12,6 +12,6 @@ You can access to these information with the api of you telegram bot
 ## Usage
 This curl command explicit how to use the notification:
 ```bash
-curl "http://127.0.0.1:5000/send" -d '{"message":"yo"}' -H "Content-Type: application/json"
+curl "http://localhost:8081/send" -d '{"service": "Test", "level": "ERROR", "message":"zsh: command not found: python"}' -H "Content-Type: application/json"
 ```
 
